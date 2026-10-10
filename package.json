@@ -1,0 +1,17 @@
+{
+  "name": "willfit-media-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "preview": "node scripts/start-preview.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "deploy": "npx --yes wrangler@4 deploy",
+    "db:migrate": "npx --yes wrangler@4 d1 migrations apply willfit-media --remote",
+    "push:keys": "node scripts/generate-push-keys.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-05-story-6",
+  "week": "2026-10-05",
+  "date": "2026-10-11",
+  "time": "09:00",
+  "type": "story",
+  "pillar": "education",
+  "sourceKind": "science",
+  "title": {
+    "fr": "Végétal : où trouver la B12 ?",
+    "en": "Plant foods: where is the B12?"
+  },
+  "storyText": {
+    "fr": "VÉGÉTAL : OÙ TROUVER LA B12 ?\n\n🧠 Les aliments végétaux ne contiennent pas de vitamine B12, sauf s’ils sont enrichis.\n\n🍽️ Vérifiez la mention B12 sur les céréales ou autres produits enrichis.\n\n💬 Répondez : quelle question avez-vous sur les aliments enrichis ?",
+    "en": "PLANT FOODS: WHERE IS THE B12?\n\n🧠 Plant foods have no vitamin B12 unless they are fortified.\n\n🍽️ Check cereals or other fortified products for B12 on the label.\n\n💬 Reply: what would you like to know about fortified foods?"
+  },
+  "caption": {
+    "fr": "🧠 VÉGÉTAL : OÙ TROUVER LA B12 ? — WILLFIT 🇨🇩🔥\n\nLes aliments végétaux ne contiennent pas de vitamine B12, sauf s’ils sont enrichis.\n\n🍽️ Vérifiez la mention B12 sur les céréales ou autres produits enrichis.\n\n💬 Répondez : quelle question avez-vous sur les aliments enrichis ?\n\n🇨🇩 Chez WillFit, on apprend, on bouge et on avance ensemble ! 💪🏾\n\n#WillFit #Kinshasa #CommunauteWillFit\n\n📞 +243 834 230 727\n✉️ 𝗖𝗼𝗻𝘁𝗮𝗰𝘁@𝘄𝗶𝗹𝗹𝗳𝗶𝘁𝗴𝘆𝗺.𝗰𝗼𝗺\n🌐 www.willfitgym.com",
+    "en": "🧠 PLANT FOODS: WHERE IS THE B12? — WILLFIT 🇨🇩🔥\n\nPlant foods have no vitamin B12 unless they are fortified.\n\n🍽️ Check cereals or other fortified products for B12 on the label.\n\n💬 Reply: what would you like to know about fortified foods?\n\n🇨🇩 At WillFit, we learn, move and grow together! 💪🏾\n\n#WillFit #Kinshasa #WillFitCommunity\n\n📞 +243 834 230 727\n✉️ 𝗖𝗼𝗻𝘁𝗮𝗰𝘁@𝘄𝗶𝗹𝗹𝗳𝗶𝘁𝗴𝘆𝗺.𝗰𝗼𝗺\n🌐 www.willfitgym.com"
+  },
+  "brief": {
+    "fr": "Visuel français 1080 × 1920 : titre Anton jaune, fait dans un bloc blanc, exemple pratique et question. Téléchargez le PNG ci-dessous. Texte original WillFit, inspiré des thèmes de Dr James et vérifié avec la source scientifique liée. Les questions invitent à répondre par message ; aucun sticker interactif n’est ajouté automatiquement.",
+    "en": "French 1080 × 1920 image: yellow Anton headline, white fact block, practical example and reply question. Download the PNG below. Original WillFit wording, inspired by Dr James’s themes and checked against the linked scientific source. Reply questions work through messages; interactive stickers are not added automatically."
+  },
+  "inspiration": "https://www.drjamesdinic.com/",
+  "publicationLanguage": "fr",
+  "source": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+  "posted": false,
+  "mediaUrl": "",
+  "note": "",
+  "version": 0,
+  "publishing": {
+    "status": "not-connected",
+    "language": "fr",
+    "time": "09:00",
+    "timezone": "Africa/Kinshasa"
+  }
+}
