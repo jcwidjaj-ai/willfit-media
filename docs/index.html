@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="WillFit’s bilingual weekly content calendar and media team workspace.">
+  <link rel="manifest" href="./manifest.webmanifest"><meta name="theme-color" content="#111111"><link rel="apple-touch-icon" href="./logo.png">
+  <title>WillFit · Media Studio</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="./" aria-label="WillFit Media Studio"><img src="./logo.png" alt="WillFit"><span>MEDIA STUDIO</span></a>
+    <div class="side-label" data-t="workspace">WORKSPACE</div>
+    <nav><button class="nav active" data-view="calendar"><span>▦</span><span data-t="weekly">Weekly calendar</span></button><button class="nav" data-view="list"><span>☷</span><span data-t="content">Content & captions</span></button><button class="nav" data-view="resources"><span>◈</span><span data-t="resources">Media & sources</span></button></nav>
+    <div class="side-bottom"><div class="account">W<span><strong>WillFit Gym</strong><small>@willfit__gym</small></span></div><div class="side-time">KINSHASA · UTC+1</div></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><span class="breadcrumb">WillFit <span>/</span> <span data-t="mediaTeam">Media team</span></span><div class="top-actions"><div class="timezone" id="live-times"></div><div class="lang-switch" aria-label="Language"><button id="lang-en" class="selected" lang="en">EN</button><button id="lang-fr" lang="fr">FR</button></div></div></header>
+    <main>
+      <section class="heading"><div><div class="eyebrow" data-t="eyebrow">WILLFIT MEDIA TEAM</div><h1 data-t="title">Your weekly content calendar</h1><p data-t="subtitle">Open a card, prepare the content and copy the final caption.</p></div><a class="button primary" href="https://drive.google.com/drive/folders/1TR7OV5HCtVFq6k1grZCa3V56-02-E3-m?usp=sharing" target="_blank" rel="noopener" data-t="drive">Approved media</a></section>
+      <div id="connection" class="connection" role="status"></div>
+      <div id="posting-alerts" aria-live="polite"></div>
+      <section id="posting-reminders" class="posting-reminders" aria-label="Posting reminders"></section>
+      <section class="summary"><div><span data-t="feedItems">FEED CONTENT</span><strong id="feed-count">5 <small data-t="perWeek">this week</small></strong></div><div><span>STORIES</span><strong>7 <small data-t="dailyIdeas">daily ideas</small></strong></div><div><span data-t="daysPassedLabel">DAYS PASSED</span><strong id="elapsed-count">0 <small>/ 7</small></strong></div><div class="schedule-summary"><span data-t="nextPlan">NEXT WEEK’S PLAN</span><strong data-t="sunday">Every Sunday</strong><small data-t="kinshasaTime">06:00 Kinshasa · 12:00 WIB</small></div></section>
+      <section class="plan-bar"><div class="week-nav"><button id="prev-week" class="icon-button" aria-label="Previous week">‹</button><h2 id="week-title">This week</h2><button id="next-week" class="icon-button" aria-label="Next week">›</button><button id="today" class="button subtle" data-t="thisWeek">This week</button></div><div class="view-controls"><button id="export" class="button subtle" data-t="export">Export plan</button><button class="view-switch selected" data-mode="calendar" data-t="calendar">Calendar</button><button class="view-switch" data-mode="list" data-t="list">List</button></div></section>
+      <div class="legend"><span><i class="reel-dot"></i>Reels</span><span><i class="post-dot"></i><span data-t="posts">Posts</span></span><span><i class="story-dot"></i>Stories</span><span class="legend-right" data-t="timeNote">Suggested times · Kinshasa</span></div>
+      <div class="quick-guide"><span data-t="stepOpen">1. Open a card</span><span data-t="stepPrepare">2. Prepare & copy the caption</span><span data-t="stepPost">3. Publish on Instagram</span></div>
+      <p class="elapsed-note" data-t="autoTickHint">Green ticks appear when a day ends in Kinshasa.</p>
+      <p class="scroll-hint" data-t="calendarScroll">Scroll sideways to see all seven days.</p>
+      <section id="calendar" class="calendar" aria-label="Monday-to-Sunday weekly calendar"></section>
+      <section id="schedule-notes" class="schedule-notes"></section>
+      <section id="list-view" hidden></section>
+      <section id="resources-view" hidden></section>
+      <section id="instagram-stats" class="instagram-stats"></section>
+      <section id="future-projects" class="future-projects"></section>
+      <footer><span>WILLFIT MEDIA STUDIO</span><span data-t="footer">Made for the team. Built around the community.</span></footer>
+    </main>
+  </div>
+  <dialog id="editor"><div class="dialog-head"><span id="editor-type"></span><button id="close-editor" class="icon-button" aria-label="Close">×</button></div><form id="editor-form"><div id="editor-fields"></div><div class="dialog-actions"><button type="button" id="copy-caption" class="button" data-t="copy">Copy caption</button><button type="submit" class="button primary" data-t="save">Save changes</button></div><p id="editor-error" role="alert"></p></form></dialog>
+  <dialog id="access"><form id="access-form"><div class="eyebrow">WILLFIT MEDIA STUDIO</div><h2 data-t="accessTitle">Welcome to the team.</h2><p data-t="accessDesc">Enter the shared team code to open the calendar.</p><label for="team-code" data-t="teamCode">Team code</label><input id="team-code" type="password" autocomplete="current-password" required><button class="button primary" type="submit" data-t="openStudio">Open studio</button><p id="access-error" role="alert"></p></form></dialog>
+  <dialog id="stats-help"><h2 data-t="statsHelpTitle">Your Instagram stats</h2><p class="editor-note" data-t="statsHelpText"></p><button class="button primary" id="close-stats-help" data-t="gotIt">Got it</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>
